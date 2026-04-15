@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Market Tiles 3x3</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      background: #071427;
+      font-family: -apple-system, BlinkMacSystemFont, "Trebuchet MS", Roboto, Ubuntu, sans-serif;
+      overflow: hidden;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      gap: 10px;
+      height: 100vh;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    .tile {
+      background: #0b1830;
+      border-radius: 14px;
+      overflow: hidden;
+      min-width: 0;
+      min-height: 0;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.25);
+    }
+    .tradingview-widget-container {
+      width: 100%;
+      height: 100%;
+    }
+    .tradingview-widget-container__widget {
+      width: 100%;
+      height: 100%;
+    }
+    .tradingview-widget-copyright { display: none; }
+  </style>
+</head>
+<body>
+  <div class="grid">
+
+    <div class="tile"><div class="tradingview-widget-container"><div class="tradingview-widget-container__widget"></div>
+      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
+      {"lineWidth":2,"lineType":0,"chartType":"area","fontColor":"rgba(99, 99, 99, 1)","gridLineColor":"rgba(15, 15, 15, 0.06)","volumeUpColor":"rgba(34, 171, 148, 0.5)","volumeDownColor":"rgba(247, 82, 95, 0.5)","backgroundColor":"rgba(255, 255, 255, 1)","widgetFontColor":"#0F0F0F","upColor":"#22ab94","downColor":"#f7525f","borderUpColor":"#22ab94","borderDownColor":"#f7525f","wickUpColor":"#22ab94","wickDownColor":"#f7525f","colorTheme":"light","isTransparent":false,"locale":"ru","chartOnly":false,"scalePosition":"right","scaleMode":"Normal","fontFamily":"-apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif","valuesTracking":"1","changeMode":"price-and-percent","symbols":[["OANDA:XAUUSD|1D"]],"dateRanges":["1d|1"],"fontSize":"10","headerFontSize":"medium","autosize":true,"dateFormat":"MMM 'yy","width":"100%","height":"100%","noTimeScale":false,"hideDateRanges":false,"hideMarketStatus":false,"hideSymbolLogo":false}
+      </script></div></div>
+
+    <div class="tile"><div class="tradingview-widget-container"><div class="tradingview-widget-container__widget"></div>
+      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
+      {"lineWidth":2,"lineType":0,"chartType":"area","fontColor":"rgba(99, 99, 99, 1)","gridLineColor":"rgba(15, 15, 15, 0.06)","volumeUpColor":"rgba(34, 171, 148, 0.5)","volumeDownColor":"rgba(247, 82, 95, 0.5)","backgroundColor":"rgba(255, 255, 255, 1)","widgetFontColor":"#0F0F0F","upColor":"#22ab94","downColor":"#f7525f","borderUpColor":"#22ab94","borderDownColor":"#f7525f","wickUpColor":"#22ab94","wickDownColor":"#f7525f","colorTheme":"light","isTransparent":false,"locale":"ru","chartOnly":false,"scalePosition":"right","scaleMode":"Normal","fontFamily":"-apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif","valuesTracking":"1","changeMode":"price-and-percent","symbols":[["OANDA:XAGUSD|1D"]],"dateRanges":["1d|1"],"fontSize":"10","headerFontSize":"medium","autosize":true,"dateFormat":"MMM 'yy","width":"100%","height":"100%","noTimeScale":false,"hideDateRanges":false,"hideMarketStatus":false,"hideSymbolLogo":false}
+      </script></div></div>
+
+    <div class="tile"><div class="tradingview-widget-container"><div class="tradingview-widget-container__widget"></div>
+      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
+      {"lineWidth":2,"lineType":0,"chartType":"area","fontColor":"rgba(99, 99, 99, 1)","gridLineColor":"rgba(15, 15, 15, 0.06)","volumeUpColor":"rgba(34, 171, 148, 0.5)","volumeDownColor":"rgba(247, 82, 95, 0.5)","backgroundColor":"rgba(255, 255, 255, 1)","widgetFontColor":"#0F0F0F","upColor":"#22ab94","downColor":"#f7525f","borderUpColor":"#22ab94","borderDownColor":"#f7525f","wickUpColor":"#22ab94","wickDownColor":"#f7525f","colorTheme":"light","isTransparent":false,"locale":"ru","chartOnly":false,"scalePosition":"right","scaleMode":"Normal","fontFamily":"-apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif","valuesTracking":"1","changeMode":"price-and-percent","symbols":[["BLACKBULL:BRENT|1D"]],"dateRanges":["1d|1"],"fontSize":"10","headerFontSize":"medium","autosize":true,"dateFormat":"MMM 'yy","width":"100%","height":"100%","noTimeScale":false,"hideDateRanges":false,"hideMarketStatus":false,"hideSymbolLogo":false}
+      </script></div></div>
+
+    <div class="tile"><div class="tradingview-widget-container"><div class="tradingview-widget-container__widget"></div>
+      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
+      {"lineWidth":2,"lineType":0,"chartType":"area","fontColor":"rgba(99, 99, 99, 1)","gridLineColor":"rgba(15, 15, 15, 0.06)","volumeUpColor":"rgba(34, 171, 148, 0.5)","volumeDownColor":"rgba(247, 82, 95, 0.5)","backgroundColor":"rgba(255, 255, 255, 1)","widgetFontColor":"#0F0F0F","upColor":"#22ab94","downColor":"#f7525f","borderUpColor":"#22ab94","borderDownColor":"#f7525f","wickUpColor":"#22ab94","wickDownColor":"#f7525f","colorTheme":"light","isTransparent":false,"locale":"ru","chartOnly":false,"scalePosition":"right","scaleMode":"Normal","fontFamily":"-apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif","valuesTracking":"1","changeMode":"price-and-percent","symbols":[["FX_IDC:USDRUB|1D"]],"dateRanges":["1d|1"],"fontSize":"10","headerFontSize":"medium","autosize":true,"dateFormat":"MMM 'yy","width":"100%","height":"100%","noTimeScale":false,"hideDateRanges":false,"hideMarketStatus":false,"hideSymbolLogo":false}
+      </script></div></div>
+
+    <div class="tile"><div class="tradingview-widget-container"><div class="tradingview-widget-container__widget"></div>
+      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
+      {"lineWidth":2,"lineType":0,"chartType":"area","fontColor":"rgba(99, 99, 99, 1)","gridLineColor":"rgba(15, 15, 15, 0.06)","volumeUpColor":"rgba(34, 171, 148, 0.5)","volumeDownColor":"rgba(247, 82, 95, 0.5)","backgroundColor":"rgba(255, 255, 255, 1)","widgetFontColor":"#0F0F0F","upColor":"#22ab94","downColor":"#f7525f","borderUpColor":"#22ab94","borderDownColor":"#f7525f","wickUpColor":"#22ab94","wickDownColor":"#f7525f","colorTheme":"light","isTransparent":false,"locale":"ru","chartOnly":false,"scalePosition":"right","scaleMode":"Normal","fontFamily":"-apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif","valuesTracking":"1","changeMode":"price-and-percent","symbols":[["FX_IDC:CNYRUB|1D"]],"dateRanges":["1d|1"],"fontSize":"10","headerFontSize":"medium","autosize":true,"dateFormat":"MMM 'yy","width":"100%","height":"100%","noTimeScale":false,"hideDateRanges":false,"hideMarketStatus":false,"hideSymbolLogo":false}
+      </script></div></div>
+
+    <div class="tile"><div class="tradingview-widget-container"><div class="tradingview-widget-container__widget"></div>
+      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
+      {"lineWidth":2,"lineType":0,"chartType":"area","fontColor":"rgba(99, 99, 99, 1)","gridLineColor":"rgba(15, 15, 15, 0.06)","volumeUpColor":"rgba(34, 171, 148, 0.5)","volumeDownColor":"rgba(247, 82, 95, 0.5)","backgroundColor":"rgba(255, 255, 255, 1)","widgetFontColor":"#0F0F0F","upColor":"#22ab94","downColor":"#f7525f","borderUpColor":"#22ab94","borderDownColor":"#f7525f","wickUpColor":"#22ab94","wickDownColor":"#f7525f","colorTheme":"light","isTransparent":false,"locale":"ru","chartOnly":false,"scalePosition":"right","scaleMode":"Normal","fontFamily":"-apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif","valuesTracking":"1","changeMode":"price-and-percent","symbols":[["COINBASE:BTCUSD|1D"]],"dateRanges":["1d|1"],"fontSize":"10","headerFontSize":"medium","autosize":true,"dateFormat":"MMM 'yy","width":"100%","height":"100%","noTimeScale":false,"hideDateRanges":false,"hideMarketStatus":false,"hideSymbolLogo":false}
+      </script></div></div>
+
+    <div class="tile"><div class="tradingview-widget-container"><div class="tradingview-widget-container__widget"></div>
+      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
+      {"lineWidth":2,"lineType":0,"chartType":"area","fontColor":"rgba(99, 99, 99, 1)","gridLineColor":"rgba(15, 15, 15, 0.06)","volumeUpColor":"rgba(34, 171, 148, 0.5)","volumeDownColor":"rgba(247, 82, 95, 0.5)","backgroundColor":"rgba(255, 255, 255, 1)","widgetFontColor":"#0F0F0F","upColor":"#22ab94","downColor":"#f7525f","borderUpColor":"#22ab94","borderDownColor":"#f7525f","wickUpColor":"#22ab94","wickDownColor":"#f7525f","colorTheme":"light","isTransparent":false,"locale":"ru","chartOnly":false,"scalePosition":"right","scaleMode":"Normal","fontFamily":"-apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif","valuesTracking":"1","changeMode":"price-and-percent","symbols":[["TRADENATION:COPPER|1D"]],"dateRanges":["1d|1"],"fontSize":"10","headerFontSize":"medium","autosize":true,"dateFormat":"MMM 'yy","width":"100%","height":"100%","noTimeScale":false,"hideDateRanges":false,"hideMarketStatus":false,"hideSymbolLogo":false}
+      </script></div></div>
+
+    <div class="tile"><div class="tradingview-widget-container"><div class="tradingview-widget-container__widget"></div>
+      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
+      {"lineWidth":2,"lineType":0,"chartType":"area","fontColor":"rgba(99, 99, 99, 1)","gridLineColor":"rgba(15, 15, 15, 0.06)","volumeUpColor":"rgba(34, 171, 148, 0.5)","volumeDownColor":"rgba(247, 82, 95, 0.5)","backgroundColor":"rgba(255, 255, 255, 1)","widgetFontColor":"#0F0F0F","upColor":"#22ab94","downColor":"#f7525f","borderUpColor":"#22ab94","borderDownColor":"#f7525f","wickUpColor":"#22ab94","wickDownColor":"#f7525f","colorTheme":"light","isTransparent":false,"locale":"ru","chartOnly":false,"scalePosition":"right","scaleMode":"Normal","fontFamily":"-apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif","valuesTracking":"1","changeMode":"price-and-percent","symbols":[["PEPPERSTONE:ZINC|1D"]],"dateRanges":["1d|1"],"fontSize":"10","headerFontSize":"medium","autosize":true,"dateFormat":"MMM 'yy","width":"100%","height":"100%","noTimeScale":false,"hideDateRanges":false,"hideMarketStatus":false,"hideSymbolLogo":false}
+      </script></div></div>
+
+    <div class="tile"><div class="tradingview-widget-container"><div class="tradingview-widget-container__widget"></div>
+      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
+      {"lineWidth":2,"lineType":0,"chartType":"area","fontColor":"rgba(99, 99, 99, 1)","gridLineColor":"rgba(15, 15, 15, 0.06)","volumeUpColor":"rgba(34, 171, 148, 0.5)","volumeDownColor":"rgba(247, 82, 95, 0.5)","backgroundColor":"rgba(255, 255, 255, 1)","widgetFontColor":"#0F0F0F","upColor":"#22ab94","downColor":"#f7525f","borderUpColor":"#22ab94","borderDownColor":"#f7525f","wickUpColor":"#22ab94","wickDownColor":"#f7525f","colorTheme":"light","isTransparent":false,"locale":"ru","chartOnly":false,"scalePosition":"right","scaleMode":"Normal","fontFamily":"-apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif","valuesTracking":"1","changeMode":"price-and-percent","symbols":[["CAPITALCOM:LEAD|1D"]],"dateRanges":["1d|1"],"fontSize":"10","headerFontSize":"medium","autosize":true,"dateFormat":"MMM 'yy","width":"100%","height":"100%","noTimeScale":false,"hideDateRanges":false,"hideMarketStatus":false,"hideSymbolLogo":false}
+      </script></div></div>
+
+  </div>
+</body>
+</html>
